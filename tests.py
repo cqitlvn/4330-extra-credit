@@ -309,12 +309,8 @@ class TestStudentRegistrationSystem(unittest.TestCase):
         self.assertIsInstance(system.students, dict)
 
 if __name__ == '__main__':
-    # Run the unit tests with verbosity level 2
     unittest.main(verbosity=2)
     
-    # Note: The code below will only execute if we modify the unittest.main() 
-    # call because unittest.main() exits the program. In a real application,
-    # you would typically put this in a separate file.
     
     def print_menu():
         print("\n=== Student Registration System ===")
